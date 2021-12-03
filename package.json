@@ -1,0 +1,45 @@
+{
+  "name": "startHtml_jquery_bootstrap",
+  "version": "1.0.0",
+  "description": "Start Html (jquery, bootstrap) - Lightweight Gulp Starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp dist"
+  },
+  "author": "Blender-Design",
+  "license": "ISC",
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "Firefox ESR",
+    "iOS >= 12",
+    "Safari >= 12",
+    "not Explorer <= 11"
+  ],
+  "devDependencies": {
+    "autoprefixer": "10.4.0",
+    "browser-sync": "2.27.7",
+    "browsersync-ssi": "0.2.4",
+    "cssnano": "5.0.10",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-changed": "4.0.3",
+    "gulp-concat": "2.6.1",
+    "gulp-imagemin": "7.1.0",
+    "gulp-postcss": "9.0.1",
+    "gulp-sass": "5.0.0",
+    "gulp-sass-glob": "1.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-uglify": "3.0.2",
+    "sass": "1.43.4",
+    "ssi": "0.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
